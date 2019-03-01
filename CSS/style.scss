@@ -35,6 +35,7 @@ h1,h2,h3{
 
 p{
     padding: 1em 5%;
+    line-height: 20pt;
     text-align: center;
 }
 
@@ -100,7 +101,7 @@ footer{
 }
 
 .profilePic{
-    width: 35%;
+    width: 55%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
@@ -108,7 +109,7 @@ footer{
     -moz-box-shadow: 0 .6em .3em darken($fourthBackgroundColor, $darkenAndLightenValue);
     box-shadow: 0 .6em .3em darken($fourthBackgroundColor, $darkenAndLightenValue);
     
-    max-width: 9.5em;
+    max-width: 15.5em;
 }
 
 section{
