@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn');
+
 :root{
     --mainBackgroundColor: #fcfcfc;
     --mainFontColor: #21252b;
@@ -7,7 +9,7 @@
     --thirdBackgroundColor: #fcfcfc;
     --fourthBackgroundColor: #fcfcfc;
 
-    --mainFontFamily: 'Averia Serif Libre', Helvetica;
+    --mainFontFamily: 'Vollkorn', serif;
 
     --marginTopBottom: 5vh;
     --marginLeftRight: 5vw;
@@ -55,6 +57,10 @@ a{
     text-decoration: none;
 }
 
+b{
+    font-weight: bold;
+}
+
 .cited{
     padding-top: 1em;
     font-style: italic;
@@ -85,6 +91,19 @@ footer{
     background-color: var(--secondBackgroundColor);
 }
 
+.educationItem{
+    margin: 2em 0;
+}
+
+.educationItem p {
+    text-align: justify;
+}
+
+.borderBottom{
+    border-bottom: 2px solid;
+    margin-bottom: 1em;
+}
+
 .borderColorBlue{
     border-color:#0077B5;
 }
@@ -95,6 +114,38 @@ footer{
 
 .borderColorGreen {
   border-color: #47dd80;
+}
+
+.borderColorLanguages{
+    border-color: #D65663;
+}
+
+.borderColorWordProcessors{
+    border-color: #2a4cdd;
+}
+
+.borderColorPresentationPrograms{
+    border-color: #e28528;
+}
+
+.borderColorSpreadsheetPrograms{
+    border-color: #47dd80;
+}
+
+.borderColorDriversLicence{
+    border-color: #8e8e8e;
+}
+
+.borderColorGraphicsEditors{
+    border-color: #5AC5FA;
+}
+
+.borderColorVersionControlSystems{
+    border-color: #eb3c28;
+}
+
+.borderColorProgrammingLanguages{
+    border-color: #d32839;
 }
 
 .borderColorInstagram{
@@ -122,7 +173,7 @@ footer{
 }
 
 section{
-    margin: 0 5%;
+    margin: 0 3%;
 }
 
 article{
@@ -137,34 +188,81 @@ article{
     box-shadow: .5em .6em .35em -.35em var(--borderShadow);
 }
 
-article h2, article h3 {
+h2, h3 {
     display: inline-block;
     font-size: medium;
     padding: 0.6em 5%;
     padding-top: 0;
 }
-article h1 {
+h1 {
     background-color: var(--secondBackgroundColor);
     border-radius: 0.3em 0.3em 0 0;
     padding: 1em 5%;
     font-size: large;
 }
-article h2 {
-    border-bottom: 2px solid;
-    margin-bottom: 1em;
+h2 {
+    
 }
+
+
 
 .articleContentWrap {
     padding: 1em;
   }
-  .articleContentWrap .projectGroup {
+
+.itemYear{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+
+
+.skillWrap{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+.languages{
+    grid-column: span 6;
+}
+
+.programmingLanguages{
+    grid-column: span 3;
+}
+
+.versionControlSystems{
+    grid-column: span 3;
+}
+
+.graphicsEditors{
+    grid-column: span 6;
+}
+
+.wordProcessors{
+    grid-column: span 2;
+}
+
+.presentationPrograms{
+    grid-column: span 2;
+}
+
+.spreadsheetPrograms{
+    grid-column: span 2;
+}
+
+.driversLicence{
+    grid-column: span 6;
+}
+
+.projectGroup {
     display: inline-block;
     vertical-align: top;
     width: 49%;
     min-width: 200px;
     padding: 1em 0;
   }
-  .articleContentWrap .project {
+.project {
     display: block;
     padding: 0 5%;
     margin: 0 auto;
@@ -176,41 +274,12 @@ article h2 {
         margin: 0 auto;
 }
 
-.socialBlock{
+.socialBlock, .skillBlock{
         display: inline-block;
+        vertical-align: top;
         padding: 1em 5%;
 }
 
-.swiper-container {
-    height: 30vh;
-    width: auto;
-    padding: 3vh 3vw;
-  }
-  
-  .swiper-container .swiper-slide {
-    height: 30vh;
-    width: auto;
-  }
-  
-  .swiper-container img {
-    display: block;
-    height: 30vh;
-    width: auto;
-    margin: 0 auto;
-  }
-  
-  .swiper-container:hover .swiper-button-prev {
-    display: block;
-  }
-  
-  .swiper-container:hover .swiper-button-next {
-    display: block;
-  }
-  
-  .swiper-button-prev {
-    display: none;
-  }
-  
-  .swiper-button-next {
-    display: none;
-  }
+.red{
+    color: #e55050;
+}
