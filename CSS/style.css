@@ -120,8 +120,15 @@ footer{
     border-color: #D65663;
 }
 
+.borderColorOfficeApplications{
+    border-image:   linear-gradient(to right, #2a4cdd 33.3%, #e28528 33.3%, #e28528 66.6%, #47dd80 66.6%, #47dd80 100%) 3;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
 .borderColorWordProcessors{
-    border-color: #2a4cdd;
+   border-color: #2a4cdd;
 }
 
 .borderColorPresentationPrograms{
@@ -236,19 +243,11 @@ h2 {
 }
 
 .graphicsEditors{
-    grid-column: span 6;
+    grid-column: span 3;
 }
 
-.wordProcessors{
-    grid-column: span 2;
-}
-
-.presentationPrograms{
-    grid-column: span 2;
-}
-
-.spreadsheetPrograms{
-    grid-column: span 2;
+.officeApplications{
+    grid-column: span 3;
 }
 
 .driversLicence{
@@ -282,4 +281,12 @@ h2 {
 
 .red{
     color: #e55050;
+}
+
+@media print {
+    
+    footer, #portfolio, #socialMedia{
+        display:none;
+    }
+    
 }
