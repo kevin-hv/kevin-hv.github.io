@@ -11,7 +11,7 @@
 
     --mainFontFamily: 'Vollkorn', serif;
 
-    --marginTopBottom: 5vh;
+    --marginTopBottom: 1em;
     --marginLeftRight: 5vw;
 
     --borderRoundness: .3em;
@@ -73,7 +73,7 @@ b{
 }
 
 header{
-    padding: 5vh 5% 0 5%;
+    padding: var(--marginTopBottom) var(--marginLeftRight);
 }
 
 header h1 {
@@ -84,7 +84,48 @@ header h1 {
 }
 
 footer{
-    padding-bottom : var(--marginTopBottom);
+    padding-top : var(--marginTopBottom);
+}
+
+#cvText{
+    display: grid;
+    grid-template-areas:
+        'introduction'
+        'workExperience'
+        'portfolio'
+        'education'
+        'skills'
+        'socialMedia'
+        'contactInformation';
+    justify-content: center;
+}
+
+#introduction{
+    grid-area: introduction;
+}
+
+#workExperience{
+    grid-area: workExperience;
+}
+
+#portfolio{
+    grid-area: portfolio;
+}
+
+#education{
+    grid-area: education;
+}
+
+#skills{
+    grid-area: skills;
+}
+
+#socialMedia{
+    grid-area: socialMedia;
+}
+
+#contactInformation{
+    grid-area: contactInformation;
 }
 
 .mainContent{
@@ -172,8 +213,6 @@ footer{
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    -webkit-box-shadow: 0 .6em .3em var(--borderShadow);
-    -moz-box-shadow: 0 .6em .3em var(--borderShadow);
     box-shadow: 0 .6em .3em var(--borderShadow);
     
     max-width: 15.5em;
@@ -184,14 +223,12 @@ section{
 }
 
 article{
-
+    width:100%;
     max-width: 50em;
     background-color: var(--fourthBackgroundColor);
     border-radius: var(--borderRoundness);
 
     margin:var(--marginTopBottom) auto;
-    -webkit-box-shadow: .5em .6em .35em -.35em var(--borderShadow);
-    -moz-box-shadow: .5em .6em .35em -.35em var(--borderShadow);
     box-shadow: .5em .6em .35em -.35em var(--borderShadow);
 }
 
@@ -287,6 +324,21 @@ h2 {
     
     footer, #portfolio, #socialMedia{
         display:none;
+    }
+    
+    article{
+        box-shadow: none;
+    }
+    
+    #cvText{
+    grid-template-areas:
+        'introduction'
+        'contactInformation'
+        'portfolio'
+        'workExperience'
+        'education'
+        'skills'
+        'socialMedia';
     }
     
 }
