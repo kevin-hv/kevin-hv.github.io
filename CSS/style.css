@@ -208,14 +208,23 @@ footer{
     border-color: #08a8e9;
 }
 
-.profilePic{
+img{
     width: 50%;
+    max-width: 15.5em;
+}
+
+.profilePic{
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
     box-shadow: 0 .6em .3em var(--borderShadow);
-    
-    max-width: 15.5em;
+}
+
+.iOSAppPic{
+    -moz-border-radius: 15.625%;
+    -webkit-border-radius: 15.625%;
+    border-radius: 15.625%;
+    box-shadow: 0 .6em .3em var(--borderShadow);
 }
 
 section{
