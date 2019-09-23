@@ -225,6 +225,7 @@ img{
     -webkit-border-radius: 15.625%;
     border-radius: 15.625%;
     box-shadow: 0 .6em .3em var(--borderShadow);
+    background-color: var(--secondBackgroundColor);
 }
 
 section{
