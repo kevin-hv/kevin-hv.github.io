@@ -15,19 +15,29 @@
     --marginLeftRight: 5vw;
 
     --borderRoundness: .3em;
+
+    --linkColor: #516686;
+    
 }
 
 @media (prefers-color-scheme: dark) {
     :root{
         --mainBackgroundColor: #151515;
         --mainFontColor: #fcfcfc;
-        
+
+        --linkColor: #afbbce;
         --borderShadow: #020202;
         --secondBackgroundColor: #1c1c1c;
         --thirdBackgroundColor: #1c1c1c;
         --fourthBackgroundColor: #1c1c1c;
     }
 }
+
+@keyframes linkColorChange {
+    from {color: var(--linkColor);}
+    to {color: var(--mainFontColor);}
+  }
+
 
 html {
   height: 100%; 
@@ -53,8 +63,14 @@ p{
 }
 
 a{
-    color: var(--mainFontColor);  
+    color: var(--linkColor);  
     text-decoration: none;
+}
+
+a:hover{
+    animation-duration: 0.5s;
+    animation-name: linkColorChange;
+    color: var(--mainFontColor);
 }
 
 b{
