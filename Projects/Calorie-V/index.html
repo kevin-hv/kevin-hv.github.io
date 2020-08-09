@@ -16,6 +16,11 @@
         <link href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="../../CSS/destyle.css">
         <link rel="stylesheet" type="text/css" href="../../CSS/style.css">
+
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+        <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     </head>
     <body>
         <header>
@@ -36,9 +41,21 @@
                     
                 </div>
             </article>
+            <article>
+                <h1>Screenshots</h1>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="Images/s0.png"></div>
+                        <div class="swiper-slide"><img src="Images/s1.png"></div>
+                        <div class="swiper-slide"><img src="Images/s2.png"></div>
+                        <div class="swiper-slide"><img src="Images/s3.png"></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </article>
             <article id="socialMedia">
                 <div class="articleContentWrap">
-                    <div class="socialBlock">
+                    <div class="socialBlock" style="display: none;">
                         <div class="hWrap">
                             <h2 class="borderBottom"><a href="https://apps.apple.com/sk/app/calorie-v/id1470738677">App Store</a></h2>
                         </div>
@@ -62,13 +79,14 @@
                         <div class="hWrap"> 
                             <h2 class="borderBottom">Email</h2>
                         </div>
-                            <a href="mailto:kevinvargadev@gmail.com">kevinvargadev@gmail.com</a>
+                            <a href="mailto:vargahalasz@gmail.com">vargahalasz@gmail.com</a>
                     </div>
                 </div>    
             </article>
         </section>
         <footer>
             <h1>Copyright © Kevin Varga Halász</h1>
-        </footer>
+        </footer>  
+        <script src="../../JS/swiperjs_setup.js"></script>  
     </body>
 </html>

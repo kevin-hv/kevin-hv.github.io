@@ -88,6 +88,13 @@ b{
     border-radius: 10px;
 }
 
+.swiper-container img {
+    border-radius: 2%;
+    margin-bottom: 30pt;
+    min-height: 300pt;
+    width: auto;
+}
+
 header{
     padding: var(--marginTopBottom) var(--marginLeftRight);
 }
@@ -203,6 +210,12 @@ footer{
 .borderColorGraphicsEditors{
     border-color: #5AC5FA;
 }
+
+.swiper-pagination .swiper-pagination-bullet-active {
+    color: var(--mainFontColor);
+    background-color: var(--mainFontColor); 
+    opacity: 1;
+  }
 
 .borderColorVersionControlSystems{
     border-color: #eb3c28;
