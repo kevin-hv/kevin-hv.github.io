@@ -243,6 +243,9 @@ img{
 }
 
 .profilePic{
+    width: 70%;
+    max-width: 18.5em;
+    margin: 2em 1em 1em 1em;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
