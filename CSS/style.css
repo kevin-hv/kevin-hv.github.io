@@ -107,7 +107,9 @@ header h1 {
 }
 
 footer{
-    padding-top : var(--marginTopBottom);
+    font-size: 1.2em;
+    padding-top : 1.5em;
+    padding-bottom : 2em;
 }
 
 #cvText{
