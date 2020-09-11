@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Vollkorn');
 
 :root{
-    --mainBackgroundColor: #fcfcfc;
+    --mainBackgroundColor: hsl(0, 0%, 97%);
     --mainFontColor: #21252b;
 
     --borderShadow: #e6e6e6;
-    --secondBackgroundColor: #fcfcfc;
-    --thirdBackgroundColor: #fcfcfc;
-    --fourthBackgroundColor: #fcfcfc;
+    --secondBackgroundColor: hsl(0, 0%, 98%);
+    --thirdBackgroundColor: hsl(0, 0%, 98%);
+    --fourthBackgroundColor: hsl(0, 0%, 98%);
 
     --mainFontFamily: 'Vollkorn', serif;
 
@@ -53,7 +53,7 @@ body {
 }
 
 h1,h2,h3{
-    font-weight: bold;
+    font-weight: 600;
 }
 
 p{
@@ -74,7 +74,7 @@ a:hover{
 }
 
 b{
-    font-weight: bold;
+    font-weight: 650;
 }
 
 .cited{
@@ -271,7 +271,7 @@ article{
     border-radius: var(--borderRoundness);
 
     margin:var(--marginTopBottom) auto;
-    box-shadow: .5em .6em .35em -.35em var(--borderShadow);
+    box-shadow: -2.5em 2.6em 2.35em -2.35em var(--borderShadow);
 }
 
 h2, h3 {
