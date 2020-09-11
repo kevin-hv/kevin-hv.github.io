@@ -251,14 +251,14 @@ img{
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    box-shadow: 0 .6em .3em var(--borderShadow);
+    box-shadow: -2.5em 2.6em 2.35em -2.35em var(--borderShadow);
 }
 
 .iOSAppPic{
     -moz-border-radius: 15.625%;
     -webkit-border-radius: 15.625%;
     border-radius: 15.625%;
-    box-shadow: 0 .6em .3em var(--borderShadow);
+    box-shadow: -2.5em 2.6em 2.35em -2.35em var(--borderShadow);
     background-color: var(--secondBackgroundColor);
 }
 
