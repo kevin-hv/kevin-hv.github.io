@@ -4,6 +4,7 @@
     --mainBackgroundColor: hsl(0, 0%, 97%);
     --mainFontColor: #21252b;
 
+    --imageShadow: #8f8f8f;
     --borderShadow: #e6e6e6;
     --secondBackgroundColor: hsl(0, 0%, 98%);
     --thirdBackgroundColor: hsl(0, 0%, 98%);
@@ -26,6 +27,7 @@
         --mainFontColor: #fcfcfc;
 
         --linkColor: #b8bec7;
+        --imageShadow: #0e0e0e;
         --borderShadow: #0f0f0f;
         --secondBackgroundColor: #1c1c1c;
         --thirdBackgroundColor: #1c1c1c;
@@ -251,14 +253,14 @@ img{
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    box-shadow: -2.5em 2.6em 2.35em -2.35em var(--borderShadow);
+    box-shadow: 0em 0em 1.5em var(--imageShadow);
 }
 
 .iOSAppPic{
     -moz-border-radius: 15.625%;
     -webkit-border-radius: 15.625%;
     border-radius: 15.625%;
-    box-shadow: -2.5em 2.6em 2.35em -2.35em var(--borderShadow);
+    box-shadow: 0em 0em 1.5em var(--imageShadow);
     background-color: var(--secondBackgroundColor);
 }
 
@@ -273,7 +275,7 @@ article{
     border-radius: var(--borderRoundness);
 
     margin:var(--marginTopBottom) auto;
-    box-shadow: -2.5em 2.6em 2.35em -2.35em var(--borderShadow);
+    box-shadow: 0em 0em 1.5em var(--borderShadow);
 }
 
 h2, h3 {
