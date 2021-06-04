@@ -1,0 +1,100 @@
+{
+    "firstName" : "Kevin",
+    "lastName" : "Varga",
+    "thumbnailImageUrl" : "https://avatars.githubusercontent.com/u/44970281?v=4",
+    "occupations" : ["Technical lead", "iOS platform lead", "iOS developer"],
+    "backgroundColor" : [255, 255, 255],
+    "workplaces" : [
+        {
+            "name" : "International Business Machines",
+            "startDate" : "2019-11-01",
+            "endDate" : null,
+            "thumbnailImageUrl" : "https://cdn.worldvectorlogo.com/logos/ibm.svg",
+            "backgroundColor" : [255, 255, 255],
+            "projects" : [
+                {
+                    "name" : "Pay for fuel application",
+                    "company" : "Multinational oil and gas company",
+                    "position" : "Technical lead & iOS platform lead",
+                    "startDate" : "2021-02-01",
+                    "endDate" : null,
+                    "shortDescription" : "An application with which a user can pay for fueling on gas stations, earn loyalty points, and sign up for promotions.",
+                    "jobDescription" : "I have fulfilled the role of a Tech lead and iOS platform lead for the US version of the application. I have negotiated on technical solutions with different squads and I have been supporting the development, QA, and design team in the preparation of new features and enhancing older ones.",
+                    "thumbnailImageUrl" : null,
+                    "dedicatedPageUrl" :  null,
+                    "backgroundColor" : [23, 138, 37]
+                },
+                {
+                    "name" : "Pay for fuel application",
+                    "company" : "Multinational oil and gas company",
+                    "position" : "iOS Developer",
+                    "startDate" : "2020-01-01",
+                    "endDate" : "2021-02-01",
+                    "shortDescription" : "An application with which a user can pay for fueling on gas stations, earn loyalty points, and sign up for promotions.",
+                    "jobDescription" : "I have fulfilled the role of a developer across the 4 different market versions of this application. Delivered both promotional & core features.",
+                    "thumbnailImageUrl" : null,
+                    "dedicatedPageUrl" :  null,
+                    "backgroundColor" : [23, 138, 37]
+                }
+            ]
+        },
+        {
+            "name" : "Personal",
+            "startDate" : null,
+            "endDate" : null,
+            "thumbnailImageUrl" : null,
+            "projects" : [
+                {
+                    "name" : "Essential Runner",
+                    "company" : null,
+                    "position" : null,
+                    "startDate" : null,
+                    "endDate" : null,
+                    "shortDescription" : "In the Essential Runner iOS application you can track your runs, motivate yourself and achieve heights that has never been achieved before. Take it to the next level, show the world how much potential is in you. Run with us.",
+                    "jobDescription" : null,
+                    "thumbnailImageUrl" : "https://github.com/kevin-hv/Essential-Runner-Public/raw/main/Logo.png",
+                    "dedicatedPageUrl" : "https://github.com/kevin-hv/Essential-Runner-Public#readme",
+                    "backgroundColor" : [235, 69, 90]
+                },
+                {
+                    "name" : "Calorie V",
+                    "company" : null,
+                    "position" : null,
+                    "startDate" : null,
+                    "endDate" : null,
+                    "shortDescription" : "An iOS calorie counter application, with which you can measure your calorie intake for a day, and create a diary of what you eat.",
+                    "jobDescription" : null,
+                    "thumbnailImageUrl" : "https://github.com/kevin-hv/Calorie-V-Public/raw/main/Logo.png",
+                    "dedicatedPageUrl" : "https://github.com/kevin-hv/Calorie-V-Public#readme",
+                    "backgroundColor" : [255, 168, 28]
+                },
+                {
+                    "name" : "Solve me Sudoku",
+                    "company" : null,
+                    "position" : null,
+                    "startDate" : null,
+                    "endDate" : null,
+                    "shortDescription" : "A sudoku playing and solving iOS application, which uses the camera & machine learning to solve sudokus from newspapers.",
+                    "jobDescription" : null,
+                    "thumbnailImageUrl" : "https://github.com/kevin-hv/Sudoku-Solver-Public/raw/main/Logo.png",
+                    "dedicatedPageUrl" : "https://github.com/kevin-hv/Sudoku-Solver-Public#readme",
+                    "backgroundColor" : [180, 230, 190]
+                },
+                {
+                    "name" : "FreeCell Halasz",
+                    "company" : null,
+                    "position" : null,
+                    "startDate" : null,
+                    "endDate" : null,
+                    "shortDescription" : "A FreeCell card game for MacOS & iOS using a shared codebase written in SwiftUI. The game is designed as a MacOS application, it runs best on devices with big screens, but it is also playable on smaller screen Apple devices.",
+                    "jobDescription" : null,
+                    "thumbnailImageUrl" : "https://github.com/kevin-hv/FreeCell-Halasz-Public/raw/main/Logo.png",
+                    "dedicatedPageUrl" : "https://github.com/kevin-hv/FreeCell-Halasz-Public#readme",
+                    "backgroundColor" : [255, 255, 255]
+                }
+            ]
+        }
+        
+    ]
+
+}
