@@ -86,10 +86,26 @@
             "name": "Personal",
             "projects": [
                 {
+                    "name": "Chess H",
+                    "shortDescription": "Play chess against your friends on an iPhone or an iPad. The app is completely free without any advertisement. Go ahead and give it a try.",
+                    "thumbnailImageUrl": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/8c/49/0d/8c490dde-8a7f-dc05-45dd-00d1001be879/AppIcon-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/246x0w.webp",
+                    "dedicatedPageUrl": "https://apps.apple.com/sk/app/chess-h/id1630538468",
+                    "backgroundColor": [
+                        152,
+                        37,
+                        42
+                    ],
+                    "foregroundColor": [
+                        255,
+                        255,
+                        255
+                    ]
+                },
+                {
                     "name": "Essential Runner",
                     "shortDescription": "In the Essential Runner iOS application you can track your runs, motivate yourself and achieve heights that has never been achieved before. Take it to the next level, show the world how much potential is in you. Run with us.",
                     "thumbnailImageUrl": "https://github.com/kevin-hv/Essential-Runner-Public/raw/main/Logo.png",
-                    "dedicatedPageUrl": "https://github.com/kevin-hv/Essential-Runner-Public#readme",
+                    "dedicatedPageUrl": "https://apps.apple.com/sk/app/essential-runner/id1507542045",
                     "backgroundColor": [
                         235,
                         69,
@@ -105,7 +121,7 @@
                     "name": "Calorie V",
                     "shortDescription": "An iOS calorie counter application, with which you can measure your calorie intake for a day, and create a diary of what you eat.",
                     "thumbnailImageUrl": "https://github.com/kevin-hv/Calorie-V-Public/raw/main/Logo.png",
-                    "dedicatedPageUrl": "https://github.com/kevin-hv/Calorie-V-Public#readme",
+                    "dedicatedPageUrl": "https://apps.apple.com/sk/app/calorie-v/id1470738677",
                     "backgroundColor": [
                         255,
                         168,
@@ -121,7 +137,7 @@
                     "name": "Solve me Sudoku",
                     "shortDescription": "A sudoku playing and solving iOS application, which uses the camera & machine learning to solve sudokus from newspapers.",
                     "thumbnailImageUrl": "https://github.com/kevin-hv/Sudoku-Solver-Public/raw/main/Logo.png",
-                    "dedicatedPageUrl": "https://github.com/kevin-hv/Sudoku-Solver-Public#readme",
+                    "dedicatedPageUrl": "https://apps.apple.com/sk/app/solve-me-sudoku/id1491806197",
                     "backgroundColor": [
                         180,
                         230,
